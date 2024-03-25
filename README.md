@@ -14,11 +14,11 @@ Installing the pyenv python environment :
 
 generating ssh key for connecting to github
 
-1. ssh-keygen  -t rsa -b 4096 -C "vaidehipan890@gmail.com"
+1. ssh-keygen  -t rsa -b 4096 -C "registered email id"
 
 2. ssh-add ~/.ssh/id_rsa
 
 3. cat ~/.ssh/id_rsa.pub --> copy the key and paste it in the github key section.
 
-
+4. git remote set-url origin git@github.com:username/your-repository.git
 End to end machine learning training and deployment.
