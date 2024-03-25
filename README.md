@@ -12,6 +12,10 @@ Installing the pyenv python environment :
 
 5. exec "$SHELL"
 
+6. pyenv virtualenv 3.10.1 environment_name
+
+7. pyenv activate environment_name
+
 generating ssh key for connecting to github
 
 1. ssh-keygen  -t rsa -b 4096 -C "registered email id"
